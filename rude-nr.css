@@ -750,56 +750,56 @@ a.button-selected {
     color: #666;
     font-size: .875em
 }
-.menu {
+.nav {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box
 }
-.menu-fixed {
+.nav-fixed {
     position: fixed;
     left: 0;
     top: 0;
     z-index: 3
 }
-.menu-list,
-.menu-item {
+.nav-list,
+.nav-item {
     position: relative
 }
-.menu-list {
+.nav-list {
     list-style: none;
     margin: 0;
     padding: 0
 }
-.menu-item {
+.nav-item {
     padding: 0;
     margin: 0;
     height: 100%
 }
-.menu-link,
-.menu-heading {
+.nav-link,
+.nav-heading {
     display: block;
     text-decoration: none;
     white-space: nowrap
 }
-.menu-horizontal {
+.nav-horizontal {
     width: 100%;
     white-space: nowrap
 }
-.menu-horizontal .menu-list {
+.nav-horizontal .nav-list {
     display: inline-block
 }
-.menu-horizontal .menu-item,
-.menu-horizontal .menu-heading,
-.menu-horizontal .menu-separator {
+.nav-horizontal .nav-item,
+.nav-horizontal .nav-heading,
+.nav-horizontal .nav-separator {
     display: inline-block;
     *display: inline;
     zoom: 1;
     vertical-align: middle
 }
-.menu-item .menu-item {
+.nav-item .nav-item {
     display: block
 }
-.menu-children {
+.nav-children {
     display: none;
     position: absolute;
     left: 100%;
@@ -808,35 +808,35 @@ a.button-selected {
     padding: 0;
     z-index: 3
 }
-.menu-horizontal .menu-children {
+.nav-horizontal .nav-children {
     left: 0;
     top: auto;
     width: inherit
 }
-.menu-allow-hover:hover>.menu-children,
-.menu-active>.menu-children {
+.nav-allow-hover:hover>.nav-children,
+.nav-active>.nav-children {
     display: block;
     position: absolute
 }
-.menu-has-children>.menu-link:after {
+.nav-has-children>.nav-link:after {
     padding-left: .5em;
     content: "\25B8";
     font-size: small
 }
-.menu-horizontal .menu-has-children>.menu-link:after {
+.nav-horizontal .nav-has-children>.nav-link:after {
     content: "\25BE"
 }
-.menu-scrollable {
+.nav-scrollable {
     overflow-y: scroll;
     overflow-x: hidden
 }
-.menu-scrollable .menu-list {
+.nav-scrollable .nav-list {
     display: block
 }
-.menu-horizontal.menu-scrollable .menu-list {
+.nav-horizontal.nav-scrollable .nav-list {
     display: inline-block
 }
-.menu-horizontal.menu-scrollable {
+.nav-horizontal.nav-scrollable {
     white-space: nowrap;
     overflow-y: hidden;
     overflow-x: auto;
@@ -844,47 +844,47 @@ a.button-selected {
     -webkit-overflow-scrolling: touch;
     padding: .5em 0
 }
-.menu-horizontal.menu-scrollable::-webkit-scrollbar {
+.nav-horizontal.nav-scrollable::-webkit-scrollbar {
     display: none
 }
-.menu-separator {
+.nav-separator {
     background-color: #ccc;
     height: 1px;
     margin: .3em 0
 }
-.menu-horizontal .menu-separator {
+.nav-horizontal .nav-separator {
     width: 1px;
     height: 1.3em;
     margin: 0 .3em
 }
-.menu-heading {
+.nav-heading {
     text-transform: uppercase;
     color: #565d64
 }
-.menu-link {
+.nav-link {
     color: #777
 }
-.menu-children {
+.nav-children {
     background-color: #fff
 }
-.menu-link,
-.menu-disabled,
-.menu-heading {
+.nav-link,
+.nav-disabled,
+.nav-heading {
     padding: .5em 1em
 }
-.menu-disabled {
+.nav-disabled {
     opacity: .5
 }
-.menu-disabled .menu-link:hover {
+.nav-disabled .nav-link:hover {
     background-color: transparent
 }
-.menu-active>.menu-link,
-.menu-link:hover,
-.menu-link:focus {
+.nav-active>.nav-link,
+.nav-link:hover,
+.nav-link:focus {
     background-color: #eee
 }
-.menu-selected .menu-link,
-.menu-selected .menu-link:visited {
+.nav-selected .nav-link,
+.nav-selected .nav-link:visited {
     color: #000
 }
 .table {
